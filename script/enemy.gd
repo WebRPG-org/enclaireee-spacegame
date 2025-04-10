@@ -3,7 +3,7 @@ extends CharacterBody2D
 @export var speed: float = 100.0
 @export var move_distance: float = 200.0
 @export var fire_rate: float = 1.5
-@export var max_hp: int = 3  
+@export var max_hp: int = 10  
 @export var projectile_scene: PackedScene = preload("res://scenes/projectile.tscn")
 var direction: int = 1
 var start_x: float

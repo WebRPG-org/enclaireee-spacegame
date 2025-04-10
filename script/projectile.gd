@@ -16,4 +16,4 @@ func _on_body_entered(body):
 		print("Player hit! HP:", body.current_hp)
 		if body.current_hp <= 0:
 			body.die()  
-		queue_free()  
+		queue_free() 
